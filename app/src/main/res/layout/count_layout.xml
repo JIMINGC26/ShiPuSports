@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circle_img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/tx"
+            />
+
+        <TextView
+            android:id="@+id/count_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_above="@id/count_sign"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/count_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        />
+
+    <Button
+        android:id="@+id/nav_login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/login"
+        android:background="@drawable/new_button"
+        android:layout_margin="20dp"
+        android:layout_gravity="bottom"
+        />
+
+    <Button
+        android:id="@+id/nav_exit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/exit"
+        android:background="@drawable/new_button"
+        android:layout_margin="20dp"
+        android:layout_gravity="bottom"
+        />
+
+</LinearLayout>

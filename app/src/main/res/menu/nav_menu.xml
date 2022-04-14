@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_edit" android:title="@string/edit" android:icon="@drawable/nav_personinfo"
+            android:checkable="true"
+            />
+        <item android:id="@+id/nav_article" android:title="@string/article" android:icon="@drawable/nav_articles"
+            android:checkable="true"
+            />
+        <item android:id="@+id/nav_history" android:title="@string/history" android:icon="@drawable/nav_favorite"
+            android:checkable="true"
+            />
+        <item android:id="@+id/nav_subscribe" android:title="我的关注" android:icon="@drawable/nav_subscribe"
+            android:checkable="true" />
+
+
+
+    </group>
+
+</menu>

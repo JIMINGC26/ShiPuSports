@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShiPu Sports</string>
+    <string name="title_name">狮扑体育</string>
+    <string name="dianzhan">点赞</string>
+    <string name="shoucang">收藏</string>
+    <string name="msg">首页</string>
+    <string name="group">社区</string>
+    <string name="count">个人</string>
+    <string name="edit">编辑资料</string>
+    <string name="article">我的文章</string>
+    <string name="history">浏览记录</string>
+    <string name="change">切换账号</string>
+    <string name="exit">退出程序</string>
+    <string name="StartText">Design by JMC</string>
+    <string name="ArticleTitle">请输入标题（4~20个字)</string>
+    <string name="login">登录账号</string>
+    <string name="enroll">注册</string>
+    <string name="log">登录</string>
+</resources>
